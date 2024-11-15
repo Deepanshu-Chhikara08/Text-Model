@@ -6,7 +6,7 @@ client = OpenAI(
   api_key = "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"
 )
 
-st.title("Text Model")
+st.title("Duck-Duck-GOv(Text Model)")
 prompt = st.text_input("Enter Prompt")
 
 completion = client.chat.completions.create(
